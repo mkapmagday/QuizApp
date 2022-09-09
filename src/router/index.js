@@ -32,12 +32,28 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/StringAppView.vue')
   },
   {
-    path: '/Quiz',
-    name: 'Quiz',
+    path: '/quiz',
+    name: 'quiz',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/QuizView.vue')
+  },
+  {
+    path: '/vuetify',
+    name: 'vuetify',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Vuetify.vue')
+  },
+  {
+    path: '/project',
+    name: 'project',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Project.vue')
   },
   
 ]

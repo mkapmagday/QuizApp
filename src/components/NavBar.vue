@@ -58,10 +58,13 @@
 
   const  items =  ref([
            { title: 'Home', icon: 'mdi-home', path: '/' },
-           { title: 'About', icon: 'mdi-account', path: '/about'},
            { title: 'Basic Calculator', icon: 'mdi-calculator', path: '/basicCalculator' },
            { title: 'String App', icon: 'mdi-code-string', path: '/stringApp'},
-           { title: 'Quiz App', icon: 'mdi-code-string', path: '/Quiz'},
+           { title: 'Quiz App', icon: 'mdi-code-string', path: '/quiz'},
+           { title: 'Vuetify', icon: 'mdi-vuetify', path: '/vuetify'},
+           { title: 'About', icon: 'mdi-account', path: '/about'},
+           { title: 'About The Project', icon: 'mdi-account', path: '/project'},
+
 
 
         ])

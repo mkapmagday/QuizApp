@@ -1,8 +1,11 @@
 <template>
    <div id="quiz-container">
-      <h5>Score: {{score}}/{{questions.length}}</h5>
+      <h5 style="float:right">Score: {{score}}/{{questions.length}}</h5>
+      <br/>
       <!-- div#correctAnswers -->
       <hr class="divider" />
+      <hr class="divider" />
+
       <h3>Question: {{currentnumberQuestion}} / {{questions.length}}</h3>
       <div>
         <h1 v-html="loading ? 'Loading...' : currentQuestion.question"></h1>
@@ -16,6 +19,8 @@
           ></button>
         </form>
         <hr class="divider" />
+        <hr class="divider" />
+
       </div>
     </div>
   </template>
